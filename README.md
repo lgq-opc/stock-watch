@@ -22,3 +22,7 @@
 - `notes/YYYY-MM-DD-HHMM.md` — 单波快照（可选）
 
 远程：`https://github.com/lgq-opc/stock-watch`
+
+## 三市下午总结
+
+工作日约 **16:44**（Asia/Shanghai）生成当日总结：`notes/YYYY-MM-DD-daily-summary.md`（A股收盘 + 港股收盘 + 美股昨夜）。
