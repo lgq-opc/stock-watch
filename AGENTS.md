@@ -6,6 +6,15 @@
 - 向用户汇报：简体中文、可扫读；休市日可静默。
 - Git 作者：小青（Grok Bot）。
 
+## Git 同步约定（强制）
+
+- **每次写入或新建任何文件（含代码、笔记、配置）之前**：必须先 `git pull`（或等价同步），再 `git status`；若有大量自己没做过的变更，先停下确认。
+- **每次任务完成之后**：必须 `git commit`（简洁中文说明），并 **`git push origin main`**，无需再问是否推送。
+- 不提交 API key、token、凭据；必要时用占位符。
+
+远端：`origin` → `https://github.com/lgq-opc/stock-watch.git`（PRIVATE）
+
+
 ## 三市下午总结
 
 - 工作日约 16:44（Asia/Shanghai，港股收盘后）生成 `notes/YYYY-MM-DD-daily-summary.md`
